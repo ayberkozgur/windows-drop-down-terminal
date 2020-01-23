@@ -4,9 +4,9 @@
 Global $prevWin = ""
 Global Const $consoleWin = "[CLASS:vcxsrv/x X rl]"
 Global Const $consoleWinWidth = 1719
-Global Const $consoleWinHeight = 932
+Global Const $consoleWinHeight = 956
 Global Const $topLeftX = -6
-Global Const $topLeftY = -6
+Global Const $topLeftY = -30
 Global Const $VK_F12 = 0x7B
 _HotKey_Assign($VK_F12, 'ToggleConsole')
 
