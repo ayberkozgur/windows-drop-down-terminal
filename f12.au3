@@ -17,7 +17,7 @@ WEnd
 Func ToggleConsole()
     Local $state = WinGetState($consoleWin)
     If BitAND($state, $WIN_STATE_ACTIVE) Then
-        WinMove($consoleWin, "", $topLeftX - $consoleWinWidth, $topLeftY, $consoleWinWidth, $consoleWinHeight)
+        WinMove($consoleWin, "", $topLeftX, $topLeftY - $consoleWinHeight, $consoleWinWidth, $consoleWinHeight)
         WinActivate($prevWin)
     Else
         $prevWin = WinGetHandle("[ACTIVE]")
